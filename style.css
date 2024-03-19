@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+  
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.main-1 {
+    width: 822px;
+    height: 547px;
+}
+
+.main-1>img {
+    position: relative;
+    right: -2px;
+}
+
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    width: 463px;
+    height: 550px;
+}
+
+.main-2 img {
+    display: block;
+
+}
+
+.deals {
+    width: 1076px;
+    height: 215px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: -130px;
+    left: 103px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+.deal-1 {
+    width: 816px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.deal-1 h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.deal-1 h3 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.deal-2 {
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.deal-2 p {
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.deal-2 h2 {
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+
+.deal-2 button {
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 7px;
+    width: 182px;
+    height: 53px;
+    margin-top: 40px;
+    border: none;
+    color: white;
+}
+
+.write {
+    text-align: left;
+    margin-top: 150px;
+}
+
+.write-1 h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2B2B2B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.write-1 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+    color: #454545;
+    margin-top: 20px;
+}
+
+.write-1 ul {
+    margin-left: 15px;
+}
+
+.write-1 ul li {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 15.2px;
+    color: #454545;
+    margin-top: 15px;
+}
+
+.accordian {
+    width: 1177px;
+    height: 239px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 12px 1px #00000046;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+
+.up h3 {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    padding: 20px 30px;
+}
+
+.content p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #3F3F3F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content ul {
+    margin-left: 20px;
+}
+
+.content ul li {
+    font-size: 22px;
+    font-weight: 400;
+    color: #3F3F3F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.accordian-l {
+    width: 1177px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 12px 1px #00000046;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.rating {
+    width: 1177px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 12px 1px #00000046;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+button {
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 7px;
+    width: 182px;
+    height: 53px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: #F28500;
+    cursor: pointer;
+}
+
+.upper-1 h3 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+}
+.upper-2{
+    width: 500px;
+}
+.upper-2 img{
+    margin-bottom: 20px;
+}
+.reviews{
+    width: 1120px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid #C5C4C4;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.reviews img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.reviews>div{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+.reviews>div img{
+    margin-right: 10px;
+}
+.reviews span img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+.reviews p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.imgs img{
+width: 129px;
+height: 154px;
+border-radius: 6px;
+object-fit: cover;
+}
+.imgs{
+margin-top: 50px;
+}
+img{
+    object-fit: cover;
+}
